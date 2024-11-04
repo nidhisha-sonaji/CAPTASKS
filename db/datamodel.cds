@@ -1,5 +1,6 @@
 namespace capapp.db;
 using { cuid, managed } from '@sap/cds/common';
+using { OP_API_PRODUCT_SRV_0001 as product_api } from '../srv/external/OP_API_PRODUCT_SRV_0001';
 
 context transaction{
 
@@ -25,5 +26,9 @@ context transaction{
     entity status  {
         key statusId :String(11);
     }
+
+    // entity material as projection on product_api{
+    //     //key Product as ID
+    // };
     
 }

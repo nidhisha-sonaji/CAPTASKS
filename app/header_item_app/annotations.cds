@@ -32,11 +32,16 @@ annotate service.ReqHeaderSet with @(
     UI.HeaderInfo:{
        TypeName:'Request Header',
        TypeNamePlural: 'Request Headers',
-       //Title :{Value : requestNo},
-       Title:{Value: requestDesc} 
+       Title :{Value : requestNo},
+       Description:{Value: requestDesc} 
 
     },
+
+    UI.Facets:[
+        
+    ]
 
     
 
 );
+

@@ -12,7 +12,7 @@ http://localhost:4004/odata/v4/MainService/StatusSet
 
 
 ### get header and item together
-http://localhost:4004/odata/v4/MainService/ReqHeaderSet/R01?$expand=items
+http://localhost:4004/odata/v4/MainService/ReqHeaderSet/136e855d-e862-404a-96bd-a7cfe4311b5a?$expand=items
 
 
 ###

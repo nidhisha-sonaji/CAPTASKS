@@ -20,5 +20,17 @@
   },
   "sapux": [
     "app/header_item_app"
-  ]
+  ],
+  "cds": {
+    "requires": {
+      "OP_API_PRODUCT_SRV_0001": {
+        "kind": "odata",
+        "model": "srv/external/OP_API_PRODUCT_SRV_0001",
+        "credentials":{
+          "destination":"S4H",
+          "path":"/sap/opu/odata/sap/API_PRODUCT_SRV"
+        }
+      }
+    }
+  }
 }
